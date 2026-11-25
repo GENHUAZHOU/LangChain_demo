@@ -1,0 +1,5 @@
+{"ts": "2026-11-25T06:45:21.439304+00:00", "event": "权限拒绝", "blocked": true, "role": "query_agent", "tool": "send_email"}
+{"ts": "2026-11-25T06:45:21.439647+00:00", "event": "工具调用", "blocked": false, "role": "query_agent", "tool": "read_file", "args": {"path": "/workspace/data/report.txt"}}
+{"ts": "2026-11-25T06:45:21.439855+00:00", "event": "参数校验失败", "blocked": true, "tool": "read_file", "args": {"path": "/etc/passwd"}, "reason": "路径越界：仅允许读取 /workspace/data 下的文件"}
+{"ts": "2026-11-25T06:45:21.440019+00:00", "event": "参数校验失败", "blocked": true, "tool": "read_file", "args": {"path": "/workspace/data/../../etc/shadow"}, "reason": "路径包含 ..，疑似目录穿越攻击"}
+{"ts": "2026-11-25T06:45:21.441176+00:00", "event": "工具调用", "blocked": false, "role": "ops_agent", "tool": "send_email", "args": {"to": "boss@corp.com", "body": "周报"}}

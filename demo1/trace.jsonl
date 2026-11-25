@@ -1,0 +1,8 @@
+{"ts": "2026-11-25T06:44:51.352303+00:00", "name": "turn1_llm", "kind": "llm", "ok": true, "tokens": 7, "latency_ms": 50.10219999894616}
+{"ts": "2026-11-25T06:44:51.403591+00:00", "name": "get_weather", "kind": "tool", "ok": true, "tokens": 4, "latency_ms": 20.33339999979944}
+{"ts": "2026-11-25T06:44:51.424827+00:00", "name": "turn1_llm", "kind": "llm", "ok": true, "tokens": 11, "latency_ms": 50.278099999559345}
+{"ts": "2026-11-25T06:44:51.475917+00:00", "name": "get_weather", "kind": "tool", "ok": true, "tokens": 4, "latency_ms": 20.523899998806883}
+{"ts": "2026-11-25T06:44:51.497315+00:00", "name": "turn1_llm", "kind": "llm", "ok": true, "tokens": 10, "latency_ms": 50.14930000106688}
+{"ts": "2026-11-25T06:44:51.548245+00:00", "name": "get_weather", "kind": "tool", "ok": true, "tokens": 4, "latency_ms": 20.26050000131363}
+{"ts": "2026-11-25T06:44:51.582404+00:00", "name": "turn1_llm", "kind": "llm", "ok": true, "tokens": 11, "latency_ms": 50.19739999988815}
+{"ts": "2026-11-25T06:44:51.632966+00:00", "name": "turn1_llm", "kind": "llm", "ok": true, "tokens": 3, "latency_ms": 50.51340000136406}
